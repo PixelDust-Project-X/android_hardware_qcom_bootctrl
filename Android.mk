@@ -1,5 +1,5 @@
 # Preset TARGET_USES_HARDWARE_QCOM_BOOTCTRL for existing platforms.
-ifneq ($(filter msm8996 msm8998 sdm710,$(TARGET_BOARD_PLATFORM)),)
+ifneq ($(filter msm8953 msm8996 msm8998 sdm710,$(TARGET_BOARD_PLATFORM)),)
 ifeq ($(AB_OTA_UPDATER),true)
 TARGET_USES_HARDWARE_QCOM_BOOTCTRL := true
 endif
